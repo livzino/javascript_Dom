@@ -19,4 +19,13 @@ console.log(p.textContent);
 p2.innerHTML = "p tekst ændret";
 
 const img = document.querySelector("img");
-console.log(img);
+console.log(img.src);
+img.src = "https://picsum.photos/id/50/500/500";
+console.log(img.alt);
+img.alt = "altændret";
+
+const img2 = document.querySelector("article:nth-child(2) img");
+console.log(img2.src);
+img2.src = "https://picsum.photos/id/700/500/500";
+console.log(img2.alt);
+img2.alt = "altændret2";
