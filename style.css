@@ -1,0 +1,22 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h1 {
+  text-align: center;
+  border: solid black;
+  padding: 20px;
+}
+article {
+  border: solid grey;
+  margin: 10px;
+}
+article img {
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  border: solid grey;
+  text-align: center;
+  padding: 20px;
+}
